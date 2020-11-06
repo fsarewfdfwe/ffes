@@ -1,0 +1,27 @@
+{
+  "name": "coronabot",
+  "version": "1.0.0",
+  "description": "코로나바이러스 Discord 봇",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MKachi/CoronaBot.git"
+  },
+  "author": "mkachi@naver.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MKachi/CoronaBot/issues"
+  },
+  "homepage": "https://github.com/MKachi/CoronaBot#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "selenium-webdriver": "^4.0.0-alpha.5"
+  }
+}
